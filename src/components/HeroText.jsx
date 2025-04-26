@@ -1,4 +1,5 @@
 import React from "react";
+import { FlipWords } from "./FlipWords";
 
 const HeroText = () => {
   return (
@@ -9,6 +10,10 @@ const HeroText = () => {
           <p className="text-5xl font-medium text-neutral-300">
             A Developer <br /> Dedicated to Crafting
           </p>
+          <div>
+            <FlipWords words={["Secure", "Scalable", "Modern"]} className="font-black text-white text-8xl" />
+          </div>
+          <p className="text-4xl font-medium text-neutral-300">Web Solutions</p>
         </div>
       </div>
     </div>
