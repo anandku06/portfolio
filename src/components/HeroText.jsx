@@ -29,7 +29,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Developer <br /> Dedicated to Crafting
+            A Developer <br /> Dedicated to Craft
           </motion.p>
           <motion.div
             variants={variants}
